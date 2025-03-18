@@ -1,0 +1,16 @@
+{
+	"name": "Cristian Ortiz",
+	"short_name": "Rick and Morty",
+	"description": "Explore the chaotic world of *Rick and Morty* with this interactive React app! Discover characters, episodes, and more through a dynamic, user-friendly interface designed for fans of the series.",
+	"start_url": "/index.html",
+	"display": "standalone",
+	"background_color": "#000",
+	"theme_color": "#000",
+	"icons": [
+		{
+			"src": "./favicon.png",
+			"sizes": "50x50",
+			"type": "image/png"
+		}
+	]
+}

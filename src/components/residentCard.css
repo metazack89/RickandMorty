@@ -1,0 +1,80 @@
+.resident__section {
+	padding: 20px;
+	display: flex; /* Use flexbox para centrar el contenido */
+	justify-content: center; /* Centrado horizontal */
+
+	.resident__container {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+		gap: 25px;
+		max-width: 1200px;
+		width: 100%;
+		justify-content: center;
+	}
+
+	.resident__card {
+		background-color: greenyellow;
+		border-radius: 30px;
+
+		.resident__card__header {
+			width: 100%;
+			height: 350px;
+			display: flex;
+			justify-content: center;
+			position: relative;
+			padding: 10px;
+
+			img {
+				width: 100%;
+				height: auto;
+				object-fit: cover;
+				border-radius: 15px 15px 55px 15px;
+			}
+			.resident__card__status {
+				position: absolute;
+				bottom: 45px;
+				right: 15px;
+				background: greenyellow;
+				padding: 5px 6px;
+				border-radius: 12px;
+				box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+			}
+		}
+		.resident__card__body {
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+
+			h3 {
+				font-size: 2rem;
+				font-weight: 600;
+				font-family: 'Permanent Marker', serif;
+				font-weight: 400;
+				font-style: normal;
+			}
+
+			ul {
+				width: 100%;
+				list-style: none;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-evenly;
+
+				.bold {
+					font-weight: 700;
+				}
+			}
+			.resident__card__copy {
+				font-size: 1.3rem;
+			}
+			.resident__card__footer {
+				margin-top: 35px;
+				padding: 8px 15px;
+				border-radius: 9px;
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+.hero {
+	height: 400px;
+	width: 100%;
+	background-image: url('/public/icegif-385.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.hero__logo {
+	width: clamp(335px, 50vw, 635px);
+}
