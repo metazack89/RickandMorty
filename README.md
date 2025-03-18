@@ -7,10 +7,10 @@
   <h3 align="center">RICK AND MORTY</h3>
   <p align="center">Welcome to the Rick and Morty! 🚀🛸 Explore the chaotic world of *Rick and Morty* with this interactive React app! Discover characters, episodes, and more through a dynamic, user-friendly interface designed for fans of the series.
     <br />
-    <a href=""><strong>Demo »</strong></a>
+    <a href=""><strong>Demo »</strong>https://appriymo.netlify.app/</a>
     <br />
   </p>
-  <img src="" alt="Logo" width="100%">
+  <img src="/public/rickandmorty3d.gif" alt="Logo" width="100%">
 </div>
 
 # RickAndMorty
